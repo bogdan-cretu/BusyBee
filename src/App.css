@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:300, 400, 700);
+@import url(https://fonts.googleapis.com/icon?family=Material + Icons);
+
 .list-wrapper{
     display: flex;
     gap: 10px;
@@ -99,8 +102,7 @@ li{
   }
   /* FONT IMPORTS */
   
-  @import url(https://fonts.googleapis.com/css?family=Open + Sans:300, 400, 700);
-  @import url(https://fonts.googleapis.com/icon?family=Material + Icons);
+ 
   
   .icon {
     font-family: "Material Icons", serif;
