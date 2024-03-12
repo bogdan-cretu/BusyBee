@@ -1,18 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Inter';
 }
-
-
 
 .list-wrapper{
   display: flex;
@@ -29,14 +26,10 @@ code {
 cursor: pointer;
 }
 .react-tabs__tab-list{
-border: none;
+border: none!important;
 }
-.react-tabs__tab--selected{
-background-color: rgb(55, 55, 160)!important;
-}
-.react-tabs__tab--selected{
-background: none;
-}
+
+
 .list-item{
   display: flex;
   flex-direction: column;
@@ -97,14 +90,18 @@ li{
   list-style-type: none
 }
 .react-tabs__tab--selected{
-  background-color: rgb(37, 139, 202);
-  color: white;
-  border: none;
+  border: none!important;
+  background: none!important;
+  background-color: rgb(37, 139, 202)!important;
+  color: white!important; 
+  font-weight: 700!important;
+  border-radius: 20px!important;
+  overflow: hidden;
 }
 
 
 .App {
-  font-family: sans-serif;
+  font-family: inherit;
   text-align: center;
  
   height: 100vh;
@@ -113,12 +110,9 @@ li{
   padding: 20px;
   width: 100%;
 }
-/* FONT IMPORTS */
-
-
 
 .icon {
-  font-family: "Material Icons", serif;
+  font-family: inherit;
   font-style: normal;
   display: inline-block;
   vertical-align: middle;
@@ -153,7 +147,7 @@ li{
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Inter";
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
@@ -373,6 +367,7 @@ main {
     max-width: 100%;
     flex-wrap: wrap;
     padding: 5px;
+ 
     
     
   }

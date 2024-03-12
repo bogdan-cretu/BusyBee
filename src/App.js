@@ -31,9 +31,9 @@ const showDetailsHandle = (dayStr) => {
     <TabList>
       <Tab>Gestiune</Tab>
       <Tab>Coletare</Tab>
-      <Tab>Strans</Tab>
-      <Tab>Tiparire</Tab>
-      <Tab>Soferi</Tab>
+      <Tab>Strâns</Tab>
+      <Tab>Tipărire</Tab>
+      <Tab>Șoferi</Tab>
       <Tab>Toate echipele</Tab>
     </TabList>
 
@@ -55,7 +55,7 @@ const showDetailsHandle = (dayStr) => {
     </TabPanel>
     <TabPanel>
     <div className='calendar-wrapper'>
-      <h1>Strans</h1>
+      <h1>Strâns</h1>
       <Strans showDetailsHandle={showDetailsHandle} />
       <br />
       {showDetails && <Details data={data} />}
@@ -64,7 +64,7 @@ const showDetailsHandle = (dayStr) => {
     </TabPanel>
     <TabPanel>
     <div className='calendar-wrapper'>
-      <h1>Tiparire</h1>
+      <h1>Tipărire</h1>
       <Tiparire showDetailsHandle={showDetailsHandle} />
       <br />
       {showDetails && <Details data={data} />}
@@ -72,7 +72,7 @@ const showDetailsHandle = (dayStr) => {
     </TabPanel>
     <TabPanel>
     <div className='calendar-wrapper'>
-      <h1>Soferi</h1>
+      <h1>Șoferi</h1>
       <Soferi showDetailsHandle={showDetailsHandle} />
       <br />
       {showDetails && <Details data={data} />}
